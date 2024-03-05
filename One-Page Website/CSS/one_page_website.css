@@ -1,0 +1,29 @@
+/*------------------------------
+        Basic Styles
+------------------------------*/
+
+p {
+    background-color: black;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    color: red;
+}
+
+h1 {
+    font-family: Verdana, sans-serif;
+    font-size: 60px;
+    color: black;
+}
+
+/*------------------------------
+        Form Styles
+------------------------------*/
+
+.rsvp {
+    width: 100%;
+    padding: 12px; 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px; 
+    border-radius: 4px;
+}

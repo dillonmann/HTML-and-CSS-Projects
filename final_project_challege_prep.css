@@ -1,0 +1,57 @@
+.center {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img { 
+    filter: saturate(300%);
+    border-radius: 10%;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 10px double;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+th {
+    background-color: blueviolet;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    color: yellow;
+}
+
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar {
+    background-color: chartreuse;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    color: darkviolet;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
